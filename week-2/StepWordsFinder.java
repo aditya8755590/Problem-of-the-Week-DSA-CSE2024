@@ -11,8 +11,8 @@ public class StepWordsFinder{
 
         // take all words in dictonary 
         System.out.println("now enter the words");
-        String[] dict=new String[n];
-        for(int i=0;i<n;i++){
+        String[] dict=new String[n+1];
+        for(int i=0;i<=n;i++){
             dict[i]=sc.nextLine();
         }
         // call and print the output 
