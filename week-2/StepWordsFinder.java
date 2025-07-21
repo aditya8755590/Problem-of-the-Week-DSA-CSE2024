@@ -3,11 +3,14 @@ public class StepWordsFinder{
 
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
+        System.out.println("Enter word");
         String word=sc.nextLine();
         // Enter no of words 
+        System.out.println("Enter no of words");
         int n=sc.nextInt();
 
         // take all words in dictonary 
+        System.out.println("now enter the words");
         String[] dict=new String[n];
         for(int i=0;i<n;i++){
             dict[i]=sc.nextLine();
