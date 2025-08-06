@@ -14,7 +14,7 @@ public class CountUnivalSubtrees {
             this.right = right;
         }
     }
-
+    
     private int count = 0;
 
     public int countUnivalSubtrees(Node root) {
